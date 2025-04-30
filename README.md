@@ -1,6 +1,6 @@
 # ActiNote---Personalized-AI-Minutes-of-Meeting-Assistant
 
-🔍 Project Overview
+# 🔍 Project Overview
 ActiNote is an intelligent meeting assistant that:
 
 Parses Microsoft Teams meeting transcripts
@@ -13,7 +13,7 @@ Sends personalized follow-up emails to each participant
 
 Integrates with Microsoft Graph API for secure and automated email delivery
 
-🏗️ Tech Stack
+# 🏗️ Tech Stack
 
 Layer	Technology
 Backend	Python 3.12, asyncio, requests
@@ -21,7 +21,7 @@ Email API	Microsoft Graph API + Azure Identity
 Auth	OAuth 2.0 (Client Credentials flow)
 Env Mgmt	python-dotenv
 Deployment	GitHub + Codespaces/VS Code (initial)
-📚 Core Features
+# 📚 Core Features
 ✅ Meeting Transcript Parsing
 Ingests structured Microsoft Teams transcripts
 
@@ -42,11 +42,7 @@ Authenticates using Client Credentials (no user interaction required)
 
 Add support for calendar integration via Microsoft Graph API
 
-Replace mock DB with live directory lookup or SharePoint user list
-
-UI dashboard for uploading transcripts and monitoring email status
-
-📬 Use Case
+# 📬 Use Case
 Ideal for teams using Microsoft 365 & Teams who want:
 
 Instant, AI-curated meeting summaries
